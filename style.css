@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(201, 198, 198);
+}
+
+main {
+    width: 90%;
+    margin: 1% 1% 2% 6%;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em;
+}
+
+nav .left a {
+    padding-left: 1em;
+    color: black;
+    font-size: x-large;
+}
+
+nav .right a {
+    padding-right: 1em;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.speaker img {
+    width: 2em;
+    height: 2em;
+}
+
+.header {
+    margin: 5em;
+}
+
+.header div button img {
+    width: 20px;
+}
+
+.header .button1 {
+    width: 95%;
+    display: flex;
+    justify-content: end;
+}
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.content-item {
+    position: relative;
+}
+
+.content-item h1, .content-item .icon {
+    position: absolute;
+}
+
+.content-item h1 {
+    top: 10vh;
+    left: 4vw;
+    color: white;
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+
+.content-item img {
+    width: 95%;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+}
+
+.content-item .icon {
+    bottom: 6vh;
+    left: 4vw;
+    color: white;
+    width: 10%;
+    height: 5%;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0px 0px 0px 8px rgb(255 255 255 / 36%);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
